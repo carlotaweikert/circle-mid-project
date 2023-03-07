@@ -40,7 +40,7 @@ html, body{
 
 h1 {
     font-size: 40px; 
-    line-height: 38px;
+    line-height: 42px;
     font-weight: 700;
     color: var(--neutral-dark); 
 }
@@ -66,9 +66,10 @@ body a {
 
 .body-regular {
     font-size: 20px; 
-    line-height: 24px;
+    line-height: 30px;
     font-weight: 300;
     color: var(--neutral-medium);
+    margin-bottom: 20px;
 }
 
 .headline-regular {
@@ -84,6 +85,12 @@ body a {
     font-weight: 300;
     color: var(--primary-default);
 }
+
+.card-link:hover {
+    color: var(--primary-hover);
+}
+
+/* Media 768px */ 
 
 @media only screen and (min-width: 768px) {
     h1 {
@@ -132,6 +139,8 @@ body a {
     margin: 3rem auto;
   }
 
+/* Media 1024px */ 
+
   @media(min-width: 1024px){
     .small-padding {
       margin: 1rem;
@@ -142,10 +151,11 @@ body a {
 
 .contact-us-button {
     background-color: var(--primary-default);
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
     padding: 14px 24px;
     border: none; 
+    font-size: 17px;
 }
 
 .contact-us-button:hover,
@@ -208,6 +218,8 @@ header {
     background-color: var(--primary-default);
 }
 
+/* Media 768px */ 
+
 @media (max-width: 768px){
     .hamburger{
         display:block;    
@@ -218,11 +230,13 @@ header {
     }
 
     .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate (45deg);
+        transform: translateY(10px);
+        transform: rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate (-45deg);
+        transform: translateY(-8px);
+        transform: rotate(-45deg);
     }
 
     .nav-menu {
@@ -246,6 +260,10 @@ header {
 
     .nav-link {
         color: #fff;
+    }
+
+    .nav-link:hover {
+        color: var(--primary-hover);
     }
 
     .nav-menu.active {
