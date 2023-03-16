@@ -1,0 +1,57 @@
+.input-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#fname {
+    border: none; 
+    padding: 20px 24px;
+    width: 100%;
+    background-color: #E6E9F1;
+}
+
+#email-contact, #phone {
+    border: none; 
+    padding: 20px 24px;
+    width: 100%;
+    background-color: #E6E9F1;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.second-line .input-box {
+    width: 50%;
+}
+
+#message {
+    border: none; 
+    padding: 20px 24px;
+    height: 150px;
+    width: 100%;
+    background-color: #E6E9F1;
+}
+
+.contact-us-form ::placeholder {
+    color: var(--neutral-medium);
+}
+
+.submit-button {
+    margin-top: 30px;
+    background-color: var(--primary-default);
+    font-weight: 300;
+    color: #fff;
+    padding: 20px 24px;
+    border: none; 
+    font-size: 17px;
+    width: 100%;
+}
+
+.contact-us-form textarea {
+    font-family: 'Roboto';
+}
