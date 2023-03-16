@@ -259,8 +259,8 @@ header {
         top: 0; 
         padding-top: 70px;
         padding-bottom: 380px;
-        width: 80%;
-        height: 700px;
+        width: 80vw;
+        height: 100vh;
         gap: 0; 
         flex-direction: column; 
         background-color: var(--primary-default);
@@ -292,6 +292,10 @@ header {
 
     .contact-us {
         display: flex;
+    }
+
+    a {
+        padding: 0px;
     }
 }
 

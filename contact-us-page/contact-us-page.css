@@ -52,6 +52,10 @@
     width: 100%;
 }
 
+.submit-button:hover {
+    background-color: var(--primary-hover);
+}
+
 .contact-us-form textarea {
     font-family: 'Roboto';
 }
