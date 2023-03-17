@@ -23,4 +23,4 @@ Cada carpeta almacena sus respectivos documentos (HTML,CSS & JS).
 
 ## Live Website
 
-Puedes ver el resultado en este [enlace] (https://gentle-sorbet-fcc121.netlify.app/index.html)
+Puedes ver el resultado en este [enlace] (https://gentle-sorbet-fcc121.netlify.app/index.html/)
